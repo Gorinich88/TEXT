@@ -73,3 +73,6 @@ p {
   color: #eaa258;
   background-color: #ffffff;
 }
+.btn_discover:hover {
+  background: #ff6600;
+}
