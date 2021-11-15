@@ -1,0 +1,78 @@
+
+body {
+width: 1600px;
+height: 1200px;
+background: #ffffff;
+}
+.text {
+  width: 1015px;
+  height: 500px;
+  margin-left: 225px;
+  margin-right: 225px;
+}
+.title {
+  margin-top: 225px;
+  margin-left: 225px;
+}
+h2 {
+  padding-bottom: 40px;
+  font-family: 'Playfair Display';
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #171717;
+
+}
+.first_text::first-letter {
+  float: left;
+  margin: 28px 20px 20px 0px;
+  font-family: 'Playfair Display';
+  font-size: 110px;
+  color: #171717;
+  line-height: 34px;
+  font-weight: 400;
+  text-transform: none;
+}
+p {
+  text-indent: 0px;
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 300;
+  color: #171717;
+}
+.little_invisible {
+  opacity: 0.7;
+}
+.second_text {
+  font-size: 24px;
+  font-style: italic;
+  opacity: 0.7;
+}
+.quotes {
+  font-size: 60px;
+  line-height: 40px;
+  font-style: italic;
+  font-family: Lato;
+  opacity: 0.7;
+}
+.button {
+  padding-top: 40px;
+  padding-left: 225px;
+}
+.btn_discover {
+  width: 264px;
+  height: 68px;
+  border: 2px solid #eaa258;
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #eaa258;
+  background-color: #ffffff;
+}
+.btn_discover:hover {
+  background: #ff6600;
+}
